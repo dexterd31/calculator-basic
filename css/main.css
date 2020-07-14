@@ -1,0 +1,41 @@
+
+.base{
+    align-content: center;
+    flex-direction: column;
+}
+.displays{
+    height: 100px;
+    background: #ED9D2B;
+}
+.numeros{
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+}
+.butons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.butons a{
+    border: 1px solid grey;
+    text-decoration: none;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    background:#007BFF;
+    font-size: 50px;
+    color: white;
+}
+.butons a:last-child{
+    width: 100%;
+    background: grey;
+}
+.butons a:hover{
+    text-decoration: none;
+    background-color: #3CA861;
+    color:white
+}
